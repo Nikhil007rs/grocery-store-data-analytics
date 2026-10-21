@@ -1,25 +1,19 @@
-# grocery-store-data-analytics
-# Grocery Store Data Collection
+## Task 3: Data Cleaning
 
-## Project Overview
-This project is part of my Data Analytics internship at VINIX. The objective is to collect and document a grocery store dataset for future data analysis.
+The original grocery store dataset was inspected and cleaned using Microsoft Excel.
 
-## Dataset Source
-The dataset was downloaded from Kaggle.
+### Cleaning Activities
+- Checked Transaction IDs for duplicates.
+- Reviewed missing values in the Discount_Percent column.
+- Reviewed date formats and store location names for consistency.
+- Saved the cleaned dataset as a separate CSV file.
 
+### Project Files
+- `grocery_store_data_for_vinix.csv` — original dataset.
+- `grocery_store_data_cleaned.csv` — cleaned dataset.
 
-## Dataset Description
-The dataset contains grocery store transaction information. Depending on the available columns, it may include product categories, quantities, prices, discounts, sales amounts and customer ratings.
+### Tools Used
+- Microsoft Excel
+- GitHub
 
-## Dataset Details
-- **File Format:** CSV
-- **Dataset Name:** Grocery Store Data
-- **Purpose:** Data collection and preparation for analysis
-
-## Objective
-To understand the structure of a retail dataset and prepare it for the next stage of the internship: data cleaning.
-
-## Tools Used
-- Kaggle — dataset collection
-- GitHub — project storage and documentation
-- Microsoft Excel — dataset inspection
+Note: The cleaning steps listed above reflect the checks performed. Any remaining missing values should be documented accurately.
